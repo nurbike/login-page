@@ -11,8 +11,25 @@ body {
 }
 
 .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-content {
+  border: 1px solid blueviolet;
+  width: 480px;
 }
 
 .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+}
+
+.right-content {
+  border: 1px solid pink;
+  width: 480px;
 }
