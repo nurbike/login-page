@@ -1,16 +1,18 @@
+html,
 body {
   margin: 0;
+  height: 100%;
 }
 
 #root {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100%;
 }
 
 .left-side {
-  border: solid 1px pink;
 }
 
 .right-side {
-  border: solid 1px pink;
+  height: 100%;
 }
