@@ -17,6 +17,7 @@ body {
   align-items: center;
   height: 100%;
   color: #28304e;
+  min-width: 480px;
 }
 
 .left-content {
@@ -161,4 +162,13 @@ body {
 
 .right-footer a {
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  #root {
+    grid-template-columns: 1fr;
+  }
+  .right-side {
+    display: none;
+  }
 }
